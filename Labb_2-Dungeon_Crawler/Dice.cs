@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace Labb_2_Dungeon_Crawler;
 
-class Wall : LevelElement
+class Dice
 {
-    public Wall(int x, int y) : base(x, y)
-    {
-        Symbol = '#';
-        Color = ConsoleColor.Gray;
-    }
 
 }
